@@ -2,7 +2,7 @@
   "name": "@carnesen/tslint-config",
   "version": "0.0.1",
   "description": "tslint sharable config for carnesen projects",
-  "main": "tslint.json",
+  "main": "index.json",
   "scripts": {
     "test": "tslint example.ts",
     "preversion": "npm test",
