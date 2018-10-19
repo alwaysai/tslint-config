@@ -1,5 +1,23 @@
 {
+  "rulesDirectory": [
+    "tslint-plugin-prettier"
+  ],
   "extends": [
-    "./nodejs.json"
-  ]
+    "tslint-config-airbnb",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "prettier": [
+      true,
+      {
+        "singleQuote": true,
+        "trailingComma": "all",
+        "bracketSpacing": true,
+        "printWidth": 90
+      }
+    ],
+    "object-shorthand-properties-first": false,
+    "no-boolean-literal-compare": false,
+    "no-unused-variable": true
+  }
 }
