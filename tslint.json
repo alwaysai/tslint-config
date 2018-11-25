@@ -18,6 +18,7 @@
     ],
     "object-shorthand-properties-first": false,
     "no-boolean-literal-compare": false,
-    "no-unused-variable": true
+    "no-unused-variable": true,
+    "import-name": false,
   }
 }
