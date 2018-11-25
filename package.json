@@ -1,6 +1,6 @@
 {
   "name": "@carnesen/tslint-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "tslint sharable config for carnesen projects",
   "main": "tslint.json",
   "scripts": {
