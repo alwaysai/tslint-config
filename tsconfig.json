@@ -1,5 +1,4 @@
 {
-  "extends": "@carnesen/tsconfig/nodejs/tsconfig.json",
   "include": [
     "src"
   ],
