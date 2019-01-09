@@ -9,6 +9,7 @@
   ],
   "rules": {
     "expect": true,
+    "import-name": false,
     "member-access": true,
     "no-boolean-literal-compare": false,
     "no-console": false,
@@ -27,6 +28,5 @@
         "printWidth": 90
       }
     ],
-    "import-name": false
   }
 }
