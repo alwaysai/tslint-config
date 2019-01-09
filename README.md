@@ -1,10 +1,10 @@
 # @carnesen/tslint-config [![Build Status](https://travis-ci.com/carnesen/tslint-config.svg?branch=master)](https://travis-ci.com/carnesen/tslint-config)
 
-[tslint configurations](https://palantir.github.io/tslint/usage/configuration/) for `@carnesen` projects
+TSLint configurations for `@carnesen` projects
 
 ## Install
 
-These instructions assume that you're already using `typescript` and are now just adding `tslint`.
+These instructions assume that you're already using TypeScript and are now just adding `tslint`.
 
 ```
 npm install --save-dev tslint @carnesen/tslint-config
@@ -20,7 +20,7 @@ Create a file `tslint.json` at the root of your project with contents:
   ]
 }
 ```
-That tells `tslint` to use the "main" export of this package, [its `tslint.json`](tslint.json) file. Add these lines to your `package.json`'s "scripts" field:
+That tells TSLint to use the "main" export of this package, [its `tslint.json`](tslint.json) file. Add these lines to your `package.json`'s "scripts" field:
 ```
     "lint": "tslint --project .",
     "lint:fix": "npm run lint -- --fix",
