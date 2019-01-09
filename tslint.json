@@ -16,7 +16,7 @@
     "no-debugger": true,
     "no-empty-interface": true,
     "no-internal-module": true,
-    "no-unused-variable": true,
+    "no-unused-variable": false,
     "object-shorthand-properties-first": false,
     "prefer-for-of": true,
     "prettier": [
