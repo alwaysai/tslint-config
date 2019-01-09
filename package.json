@@ -4,7 +4,9 @@
   "description": "tslint sharable config for carnesen projects",
   "main": "tslint.json",
   "scripts": {
-    "test": "tslint --project ."
+    "test": "tslint --project .",
+    "preversion": "npm test",
+    "postversion": "npm publish"
   },
   "dependencies": {
     "dtslint": "0.4.2",
