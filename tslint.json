@@ -1,12 +1,23 @@
 {
   "rulesDirectory": [
-    "tslint-plugin-prettier"
+    "tslint-plugin-prettier",
+    "dtslint/bin/rules/expectRule.js"
   ],
   "extends": [
     "tslint-config-airbnb",
     "tslint-config-prettier"
   ],
   "rules": {
+    "expect": true,
+    "member-access": true,
+    "no-boolean-literal-compare": false,
+    "no-console": false,
+    "no-debugger": true,
+    "no-empty-interface": true,
+    "no-internal-module": true,
+    "no-unused-variable": true,
+    "object-shorthand-properties-first": false,
+    "prefer-for-of": true,
     "prettier": [
       true,
       {
@@ -16,9 +27,6 @@
         "printWidth": 90
       }
     ],
-    "object-shorthand-properties-first": false,
-    "no-boolean-literal-compare": false,
-    "no-unused-variable": true,
     "import-name": false
   }
 }
