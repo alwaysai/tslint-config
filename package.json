@@ -1,7 +1,7 @@
 {
-  "name": "@carnesen/tslint-config",
-  "version": "0.1.2",
-  "description": "tslint sharable config for carnesen projects",
+  "name": "@alwaysai/tslint-config",
+  "version": "0.0.0",
+  "description": "TSLint configurations for alwaysAI projects",
   "main": "tslint.json",
   "scripts": {
     "test": "tslint --project .",
@@ -19,14 +19,12 @@
     "tslint": "5.12.0",
     "typescript": "3.2.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/carnesen/tslint-config.git"
-  },
-  "author": "Chris Arnesen",
+  "files": [
+    "nodejs",
+    "tslint.json"
+  ],
+  "repository": "github:alwaysai/tslint-config",
+  "author": "alwaysAI, Inc.",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/carnesen/tslint-config/issues"
-  },
-  "homepage": "https://github.com/carnesen/tslint-config#readme"
+  "homepage": "https://github.com/alwaysai/tslint-config#readme"
 }

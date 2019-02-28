@@ -1,22 +1,22 @@
-# @carnesen/tslint-config [![Build Status](https://travis-ci.com/carnesen/tslint-config.svg?branch=master)](https://travis-ci.com/carnesen/tslint-config)
+# @alwaysai/tslint-config [![Build Status](https://travis-ci.com/alwaysai/tslint-config.svg?branch=master)](https://travis-ci.com/alwaysai/tslint-config)
 
-TSLint configurations for `@carnesen` projects
+TSLint configurations for alwaysAI projects
 
-## Install
+## Usage
 
 These instructions assume that you're already using TypeScript and are now just adding `tslint`.
 
+Use `npm` or `yarn` to install this package:
 ```
-npm install --save-dev tslint @carnesen/tslint-config
+npm install --save-dev tslint @alwaysai/tslint-config
 ```
 
-## Usage
 Create a file `tslint.json` at the root of your project with contents:
 
 ```json
 {
   "extends": [
-    "@carnesen/tslint-config"
+    "@alwaysai/tslint-config"
   ]
 }
 ```
@@ -39,17 +39,12 @@ This package's rules extend those espoused by [by AirBnB](https://github.com/air
 ```
 These are a nice way of writing programmatic tests for types beyond what you can achieve with unit testing alone.
 
-Here are some projects that make use of this one if you want to see some code looks like that adhere to these rules:
-- [@carnesen/bitcoin-config](https://github.com/carnesen/bitcoin-config): Constants, utilities, and TypeScript types for bitcoin server software configuration with Node.js
-- [@carnesen/cli](https://github.com/carnesen/cli): A library for building Node.js command-line interfaces
-- [@carnesen/coded-error](https://github.com/carnesen/coded-error): An enhanced `Error` class with additional properties "code" and "data"
-
 ## Related
-- [@carnesen/tsconfig](https://github.com/carnesen/tsconfig): TypeScript configurations for @carnesen projects
+- [@alwaysai/tsconfig](https://github.com/alwaysai/tsconfig): TypeScript configurations for alwaysAI projects
 
 ## More information
 If you encounter any bugs or have any questions or feature requests, please don't hesitate to file an issue or submit a pull request on this project's repository on GitHub.
 
 ## License
 
-MIT © [Chris Arnesen](https://www.carnesen.com)
+MIT © [alwaysAI, Inc.](https://alwaysai.co)
