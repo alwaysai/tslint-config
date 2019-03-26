@@ -13,3 +13,5 @@ class Foo {
 
 // $ExpectType string[]
 ['foo', 'bar', 'baz'];
+
+const Bar = 'bar';

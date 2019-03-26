@@ -27,6 +27,12 @@
         "bracketSpacing": true,
         "printWidth": 90
       }
+    ],
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-pascal-case"
     ]
   }
 }
