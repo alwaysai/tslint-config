@@ -15,3 +15,5 @@ class Foo {
 ['foo', 'bar', 'baz'];
 
 const Bar = 'bar';
+
+const foo_ = 'foo';
