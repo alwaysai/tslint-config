@@ -17,3 +17,5 @@ class Foo {
 const Bar = 'bar';
 
 const foo_ = 'foo';
+
+function Hello() {}

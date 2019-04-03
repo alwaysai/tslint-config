@@ -9,6 +9,16 @@
   ],
   "rules": {
     "expect": true,
+    "function-name": [
+      true,
+      {
+        "method-regex": "^[a-z][\\w\\d]+$",
+        "private-method-regex": "^[a-z][\\w\\d]+$",
+        "protected-method-regex": "^[a-z][\\w\\d]+$",
+        "static-method-regex": "^[A-Z_\\d]+$",
+        "function-regex": "^[a-zA-Z][\\w\\d]+$"
+      }
+    ],
     "import-name": false,
     "member-access": true,
     "no-boolean-literal-compare": false,
