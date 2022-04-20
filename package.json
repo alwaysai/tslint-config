@@ -1,6 +1,6 @@
 {
   "name": "@alwaysai/tslint-config",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "TSLint configurations for alwaysAI projects",
   "main": "tslint.json",
   "scripts": {
