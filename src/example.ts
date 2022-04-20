@@ -9,7 +9,7 @@ class Foo {
 }
 
 // $ExpectType "foo"
-'foo';
+('foo');
 
 // $ExpectType string[]
 ['foo', 'bar', 'baz'];
